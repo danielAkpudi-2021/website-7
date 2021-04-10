@@ -1,0 +1,161 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.3rem;
+    overflow-x: hidden;
+}
+.navbar{
+    box-shadow: 7px 0 30px rgb(0 0 0 / 7%);
+}
+
+.default-margin-padding {
+    padding: 0 5%;
+    margin-top: 140px;
+}
+
+.default-margin-top {
+    margin-top: 140px;
+}
+
+.my-btn{
+    width: 60px;
+    height: 60px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 100%;
+    border: none;
+    position: fixed;
+    right: 4%;
+    bottom: 4%;
+}
+
+.my-btn i{
+    font-size: 45px;
+}
+
+/* makes nav link & card letters dark and thick*/
+.navbar-light .navbar-nav .nav-link,
+.section-2 h5{
+    color: #000;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+/* section-1 starts */
+.section-1{
+    border-right: 80px solid #fff;
+    border-left: 80px solid #fff;
+    margin-top: 98px;
+}
+
+.carousel-item img{
+    height: 85vh;
+}
+
+.carousel-caption{
+    background-color:rgba(0,0,0,0.6) ;
+
+}
+
+/* section-2 starts */
+.card img{
+    height: 320px;
+}
+
+.section-2 p{
+    font-size: 1rem;
+}
+
+/* section-3 starts */
+.section-3 .image-1{
+    background: url('apartment-architecture-balcony-347141.jpg') no-repeat center center/cover;
+}
+
+.section-3 .image-2{
+    background: url('bootcamp_image.png') no-repeat center center/cover;
+}
+
+.section-3 .image-1,
+.section-3 .image-2 {
+    width: 100%;
+    height: 70vh;
+    padding: 15%;
+}
+
+.image-1 h3,
+.image-1 p,
+.image-2 h3 {
+    margin-bottom: 20px;
+}
+
+/* footer section */
+
+.footer{
+    padding: 8% 4% 4%;
+}
+
+.footer ul{
+    padding: 0;
+}
+
+.footer ul li{
+    list-style: none;
+}
+ 
+.footer a{
+    text-decoration: none;
+    color: #000;
+}
+
+.footer h4,
+.footer label{
+    font-weight: 800;
+}
+.footer .form{
+    padding: 0 0 0 12%;
+    text-align: right;
+}
+
+.footer .col-lg-2 {
+    text-align: center;
+}
+
+.footer i {
+    font-size: 30px;
+}
+
+
+@media(max-width:960px){
+    .section-1{
+        border: none;
+    }
+
+    .footer .form {
+        padding: 12%;
+    }
+
+    .footer .form{
+        text-align: left;
+    }
+
+    .footer .icons {
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width:720px){
+    .carousel-item img{
+        height: 60vh;
+    }
+
+    .footer .form {
+        padding: 5%;
+    }
+    
+    .footer .form{
+        text-align: left;
+    }
+
+    .footer .icons {
+        margin-bottom: 20px;
+    }
+}
